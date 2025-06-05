@@ -3,7 +3,8 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.
+<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -19,13 +20,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Azure Virtual Machine
-- Remote Desktop Application on either Windows or MacOS
-- osTicket Installation Files
+- Remote Desktop Application on either Windows or [MacOS](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12)
+- [osTicket Installation Files](https://github.com/osTicket/osTicket/releases)
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zDWiACb" height="80%" width="80%" alt="Virtual Machine Setup"/>
 </p>
 <p>
 🖥️ Step 1: Create and Access the Virtual Machine
@@ -33,11 +34,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create an Azure Virtual Machine with the following specs:
   - **OS**: Windows 10
   - **vCPUs**: 4
-  - **Name**: `CapsuleCorpIT-vm`
-  - **Username**: `Trunks`
-  - **Password**: `TimeTravel20`
+  - **Name**: `osticket-vm`
+  - **Username**: `labuser`
+  - **Password**: `osTicketPassword1!`
 - Connect via **Remote Desktop (RDP)** to the Public IP Address given to the VM in Azure
-  - On Mac, use the [Windows App](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12).
+  - On Mac, use the Windows App
 </p>
 <br />
 

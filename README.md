@@ -9,19 +9,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines / Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10 Pro (22H2)
 
 <h2>List of Prerequisites</h2>
 
 - Azure Virtual Machine
 - Remote Desktop Application on either Windows or [MacOS](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12)
-- [osTicket Installation Files](https://github.com/osTicket/osTicket/releases)
+- osTicket (v1.15.8) Installation Files
 
 <h2>Installation Steps</h2>
 
@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Create an Azure Virtual Machine with the following specs:
   - **OS**: Windows 10
-  - **vCPUs**: 4
+  - **vCPUs**: 2
   - **Name**: `osticket-vm`
   - **Username**: `labuser`
   - **Password**: `osTicketPassword1!`

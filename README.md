@@ -34,9 +34,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - **OS**: Windows 10
   - **vCPUs**: 4
   - **Name**: `CapsuleCorpIT-vm`
-  - **Username**: `Bulma`
+  - **Username**: `Trunks`
   - **Password**: `TimeTravel20`
-- Connect via **Remote Desktop (RDP)**
+- Connect via **Remote Desktop (RDP)** to the Public IP Address given to the VM in Azure
   - On Mac, use the [Windows App](https://apps.apple.com/us/app/windows-app/id1295203466?mt=12).
 </p>
 <br />

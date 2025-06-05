@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://imgur.com/zDWiACb" height="80%" width="80%" alt="Virtual Machine Setup"/>
+<img src="https://i.imgur.com/zDWiACb.png" height="80%" width="80%" alt="Virtual Machine Setup"/>
 </p>
 <p>
 🖥️ Step 1: Create and Access the Virtual Machine
@@ -43,12 +43,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K8qCkja.png" height="80%" width="80%" alt="Environment Preparation"/>
 </p>
 <p>
 📦 Step 2: Prepare the Environment
   
-- Download and unzip `osTicket-Installation-Files.zip` to the Desktop.
+- Download and unzip `osTicket-Installation-Files.zip` to the Downloads folder.
 - Enable **IIS with CGI**:
   - Go to `Control Panel > Programs > Turn Windows features on or off`
   - Enable:
@@ -69,7 +69,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j3EB28q.png" height="80%" width="80%" alt="Registering PHP in IIS"/>
 </p>
 <p>
 🛠️ Step 3: Install MySQL and Configure PHP
@@ -93,12 +93,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JDMHXgx.png" height="80%" width="80%" alt="PHP Manager Extension List"/>
 </p>
 <p>
 🌐 Step 4: Install and Configure osTicket
 
-- Extract `osTicket-v1.15.8.zip` from the files folder.
+- Extract `osTicket-v1.15.8.zip` from the Installation Files folder.
 - Copy the `upload` folder to: C:\inetpub\wwwroot
   - Rename `upload` to `osTicket`
 
@@ -124,15 +124,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     C:\inetpub\wwwroot\osTicket\include\ost-config.php
     ```
 
-- Set permissions:
+- Set **Advanced** Permissions for the ost-config.php file:
   - Disable inheritance
   - Remove all existing
-  - Add: `Everyone` with **Full Control** 
+  - Add: Principal `Everyone` with **Full Control** 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kA17Ugp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 🧩 Step 5: Final Setup and Database Configuration
